@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(description="This is a tool for all the lazy or
 parser.add_argument("input", help="The input field for your hex/text", nargs="?")
 parser.add_argument("output_input", help="The output input field is used only if you choose to write the results to a file", nargs="?")
 parser.add_argument("-v", "--version", help="Gives user current version", action="store_true")
-parser.add_argument("-hx", "--hex", help="Used to specify an hex for the input argument\nhex->text", action="store_true")
+parser.add_argument("-x", "--hex", help="Used to specify an hex for the input argument\nhex->text", action="store_true")
 parser.add_argument("-t", "--text", help="Used to specify a text for the input argument\ntext->hex",action="store_true")
 parser.add_argument("-o", "--output", help="Saves output to file. We'll append the .txt extension ourselves", action="store_true")
 
