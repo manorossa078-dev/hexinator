@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$1" | xxd -p -r
+printf %s "$1" | xxd -p -r
