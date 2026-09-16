@@ -1,5 +1,5 @@
 # hexinator
-My first Python3 mixed bash project: are you willing to spare some time? This is the tool for you!
+My first Python3 mixed bash project: are you willing to spare some time? Bored of manually deciphers / ciphers? This is the tool for you!
 
 Cloning into hexinator:
 ```bash
