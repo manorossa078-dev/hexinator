@@ -1,2 +1,21 @@
 # hexinator
-My first Python3 mixed bash project (a serious one): are you lazy or just someone who thinks that they need to spare time? Use hexinator to cipher and decipher in hex!
+My first Python3 mixed bash project: are you willing to spare some time? This is the tool for you!
+
+Cloning into hexinator:
+```bash
+git clone https://github.com/manorossa078-dev/hexinator.git
+```
+![](assets/cloning.png)
+
+Setting it up:
+```bash
+chmod +x install.sh cli bin/*
+./install.sh
+```
+![](assets/setup.png)
+
+Example:
+```bash
+./cli -h
+```
+![](assets/help.png)
