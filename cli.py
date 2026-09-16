@@ -12,7 +12,7 @@ _A='store_true'
 VER=' hexinator v.0.0.5 LA'
 import argparse,subprocess,time,os
 BASE=os.path.dirname(os.path.abspath(__file__))
-parser=argparse.ArgumentParser(description="Copyright (C) 2026. This is a tool for all the lazy or workaholic Linux users. It makes you cipher and decipher hex-encoded lines with ease in a very lightweight tool. You're currently on LA (Limited Access), so you'll have a delay of 10 seconds.")
+parser=argparse.ArgumentParser(description="Copyright (C) 2026 manorossa078-dev. This is a tool for all the lazy or workaholic Linux users. It makes you cipher and decipher hex-encoded lines with ease in a very lightweight tool. You're currently on LA (Limited Access), so you'll have a delay of 10 seconds.")
 parser.add_argument('input',help='The input field for your hex/text',nargs='?')
 parser.add_argument('output_input',help='The input field for your -o flag',nargs='?')
 parser.add_argument('-o',_D,help='The output input field is used only if you choose to write the results to a file',nargs='?')
